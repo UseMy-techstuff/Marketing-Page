@@ -1,14 +1,60 @@
 body{
 
-    h2{
-        font-size: 2rem;
-        padding: 4%;
+    .container{
+        position: relative;
+        width: 100%;
+
+        .img-one{
+            width: 100%;
+            height: auto;
+        }
+
+        .use-btn{
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            background-color: #3E4A61;
+            color: white;
+            font-size: 2.5vw;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 40%;
+            height: 15%;
+
+            @media @tablet{
+                font-size: 2.8vw;
+            }
+        }
+
+        .loan-btn{
+            position: absolute;
+            top: 50%;
+            left: 75%;
+            transform: translate(-50%, -50%);
+            background-color: #3E4A61;
+            color: white;
+            font-size: 2.5vw;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 40%;
+            height: 15%;
+
+            @media @tablet{
+                font-size: 2.8vw;
+            }
+        }
     }
+
+
 
     .equipment{
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
         margin: 4% 0;
 
         @media @mobile{
@@ -16,12 +62,12 @@ body{
             justify-content: center;
             align-items: center;
             width: 100%;   
-            
         }
 
-        img{
+        .equip-img{
             height: auto;
-            width: 60%;
+            width: 100%;
+            border-radius: 8px;
         }
 
         .equip{
@@ -39,53 +85,23 @@ body{
                 width: 100%;  
                 height: 25vh; 
             }
-        }
-    }
 
-    img{
-        display: block;
-        height: 50%;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 8px;
-        
-        @media @mobile{
-            display: none;
-        }
-    }
+            h2{
+                font-size: 2vw;
+                padding: 6% 0;
 
-    .borrow{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 25vh;
-        margin: 4% 0;
+                @media @tablet{
+                    font-size: 2.8vw;
+                }
+            }
 
-        @media @mobile{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;  
-        }
-
-
-        .stuff{
-            .boxes-flex;
-            color: white;
-            background-color: #3E4A61;
-            border-radius: 8px;
-            width: 40%;
-
-            @media @mobile{
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                width: 100%;  
-                height: 25vh; 
+            p{
+                padding: 3%;
             }
         }
     }
+
+
     footer{
         height: 10vh;
         align-items: center;
