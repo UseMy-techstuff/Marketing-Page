@@ -33,9 +33,10 @@ body{
             height: 50%;
 
             @media @mobile{
-                top: 35%;
+                top: 30%;
                 width: 75%;
                 height: 25%;
+                max-height: 20vh;
             }
 
             h2{
@@ -46,7 +47,7 @@ body{
                 }
 
                 @media @mobile{
-                    font-size: 4vw;
+                    font-size: 6vw;
                 }
             }
         }
@@ -56,6 +57,7 @@ body{
         display: flex;
         position: relative;
         width: 100%;
+        border-top: 50px solid #3E4A6100;
 
         .img-two{
             width: 100%;
@@ -77,14 +79,17 @@ body{
             padding: 12px 24px;
             border: none;
             border-radius: 5px;
-            width: 40%;
+            width: 50%;
             height: 15%;
 
             h2{
 
-
                 @media @tablet{
                     font-size: 4vw;
+                }
+
+                @media @mobile{
+                    font-size: 6vw;
                 }
             }
         }
@@ -119,10 +124,7 @@ body{
         }
 
         .tm{
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center; 
+            .boxes-flex();
             color: white;
             background-color: #3E4A61;
             border-radius: 8px;
@@ -147,7 +149,7 @@ body{
                 }
 
                 @media @mobile{
-                    font-size: 4vw;
+                    font-size: 6vw;
                 }
             }
 

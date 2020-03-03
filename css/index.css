@@ -1,7 +1,7 @@
 .boxes-flex {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -268,9 +268,10 @@ body .mission .miss-statement {
 }
 @media (max-width: 500px) {
   body .mission .miss-statement {
-    top: 35%;
+    top: 30%;
     width: 75%;
     height: 25%;
+    max-height: 20vh;
   }
 }
 body .mission .miss-statement h2 {
@@ -283,13 +284,14 @@ body .mission .miss-statement h2 {
 }
 @media (max-width: 500px) {
   body .mission .miss-statement h2 {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 }
 body .container {
   display: flex;
   position: relative;
   width: 100%;
+  border-top: 50px solid #3E4A6100;
 }
 body .container .img-two {
   width: 100%;
@@ -310,12 +312,17 @@ body .container .meet {
   padding: 12px 24px;
   border: none;
   border-radius: 5px;
-  width: 40%;
+  width: 50%;
   height: 15%;
 }
 @media (max-width: 800px) {
   body .container .meet h2 {
     font-size: 4vw;
+  }
+}
+@media (max-width: 500px) {
+  body .container .meet h2 {
+    font-size: 6vw;
   }
 }
 body .team {
@@ -377,7 +384,7 @@ body .team .tm h2 {
 }
 @media (max-width: 500px) {
   body .team .tm h2 {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 }
 body .team .tm p {
