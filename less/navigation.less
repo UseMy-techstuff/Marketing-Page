@@ -2,6 +2,7 @@ header {
     display: flex;
     height : 15vh;
     background-color: #3E4A61;
+    padding: 2% 0;
 
     @media @mobile {
         flex-direction: column;
@@ -13,8 +14,24 @@ header {
         align-items: center;
 
         h1{
-            font-size: 200%;
-            padding: 5%;
+            font-size: 175%;
+            margin: 5%;
+
+            @media @tablet{
+                font-size: 150%;
+            }
+
+            @media @mobile{
+                height: 5vh;
+            }
+        }
+
+        i{
+            margin: 5%;
+
+            @media @mobile{
+                display: none;
+            }
         }
     }
 
@@ -31,13 +48,18 @@ header {
             position: fixed;
             top: 0;
             width: 100%;
-            max-width: 100%;
+            max-width: 96%;
             height: 10vh;
+            z-index: 1;
         }
 
         a {
             text-decoration: none;
             font-size: 1.3rem;
+
+            @media @tablet{
+                font-size: 1.1rem;
+            }
         }
     }
 }
