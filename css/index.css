@@ -138,9 +138,16 @@ body {
   background-color: #D9DAD7;
   margin: 0 15%;
 }
+@media (max-width: 500px) {
+  body {
+    margin: 0 2%;
+    margin-top: 10vh;
+  }
+}
 body h1 {
   font-family: 'Oxanium';
   color: #C24D2C;
+  font-size: 3.5rem;
 }
 body h2,
 body h3 {
@@ -154,8 +161,10 @@ header {
   display: flex;
   height: 15vh;
 }
-header h1 {
-  font-size: 3rem;
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
 }
 header nav {
   display: flex;
@@ -164,9 +173,19 @@ header nav {
   width: 100%;
   height: 100%;
 }
+@media (max-width: 500px) {
+  header nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+  }
+}
 header nav a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 footer {
   display: flex;
@@ -178,6 +197,7 @@ footer a {
 }
 body h2 {
   font-size: 2rem;
+  padding: 4%;
 }
 body .equipment {
   display: flex;
@@ -185,9 +205,17 @@ body .equipment {
   align-items: flex-start;
   margin: 4% 0;
 }
+@media (max-width: 500px) {
+  body .equipment {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
 body .equipment img {
-  height: 50%;
-  width: 50%;
+  height: auto;
+  width: 60%;
 }
 body .equipment .equip {
   display: flex;
@@ -200,8 +228,14 @@ body .equipment .equip {
   width: 30%;
   height: 50vh;
 }
-body .equipment .equip h2 {
-  padding: 4%;
+@media (max-width: 500px) {
+  body .equipment .equip {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+  }
 }
 body img {
   display: block;
@@ -211,11 +245,25 @@ body img {
   margin-right: auto;
   border-radius: 8px;
 }
+@media (max-width: 500px) {
+  body img {
+    display: none;
+  }
+}
 body .borrow {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 25vh;
+  margin: 4% 0;
+}
+@media (max-width: 500px) {
+  body .borrow {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
 body .borrow .stuff {
   display: flex;
@@ -227,8 +275,14 @@ body .borrow .stuff {
   border-radius: 8px;
   width: 40%;
 }
-body .borrow .stuff h2 {
-  padding: 4%;
+@media (max-width: 500px) {
+  body .borrow .stuff {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+  }
 }
 body footer {
   height: 10vh;
