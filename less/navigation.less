@@ -1,11 +1,13 @@
 header {
     display: flex;
-    height : 15vh;
+    height : 12vh;
     background-color: #3E4A61;
     padding: 2% 0;
 
     @media @mobile {
         flex-direction: column;
+        padding: 0;
+        height: 9vh;
     }
 
     .icon{
@@ -20,16 +22,12 @@ header {
             @media @tablet{
                 font-size: 150%;
             }
-
-            @media @mobile{
-                height: 5vh;
-            }
         }
 
         i{
             margin: 5%;
 
-            @media @mobile{
+            @media @tablet{
                 display: none;
             }
         }
@@ -39,7 +37,7 @@ header {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        width: 100%;
+        width: 65%;
         height: 100%;
 
         @media @mobile {
@@ -55,10 +53,10 @@ header {
 
         a {
             text-decoration: none;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
 
             @media @tablet{
-                font-size: 1.1rem;
+                font-size: 1rem;
             }
         }
     }

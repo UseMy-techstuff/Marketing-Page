@@ -77,12 +77,15 @@ body{
         }
 
         .equip{
-            .boxes-flex;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;            
             color: white;
             background-color: #3E4A61;
             border-radius: 8px;
             width: 30%;
-            height: 50vh;
+            height: auto;
 
             @media @mobile{
                 flex-direction: column;
@@ -98,6 +101,10 @@ body{
 
                 @media @tablet{
                     font-size: 2.8vw;
+                }
+
+                @media @mobile{
+                    font-size: 4vw;
                 }
             }
 
