@@ -180,6 +180,7 @@ header .icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 3%;
 }
 header .icon h1 {
   font-size: 175%;
