@@ -279,13 +279,16 @@ body .mission .miss-statement h2 {
 }
 @media (max-width: 800px) {
   body .mission .miss-statement h2 {
-    font-size: 2.8vw;
+    font-size: 3vw;
   }
 }
 @media (max-width: 500px) {
   body .mission .miss-statement h2 {
     font-size: 6vw;
   }
+}
+body .mission .miss-statement p {
+  font-size: 1.1rem;
 }
 body .container {
   display: flex;
