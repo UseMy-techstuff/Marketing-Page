@@ -10,6 +10,10 @@ header {
   position: relative;
   z-index: 5;
 
+  @media @mobile{
+    height: 30vh;
+  }
+
   &::after {
     content: "";
     width: 100%;
@@ -27,6 +31,10 @@ header {
     margin: auto;
     justify-content: space-between;
     align-items: center;
+
+    @media @mobile{
+      flex-direction: column;
+    }
   }
 
   a {
