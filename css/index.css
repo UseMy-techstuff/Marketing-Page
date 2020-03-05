@@ -222,12 +222,22 @@ header a:hover {
 }
 footer {
   padding-top: 2rem;
-  border-top: 1px solid grey ;
+  border-top: 1px solid grey;
   max-width: 1000px;
   margin: auto;
   margin-top: 10rem;
   display: flex;
   justify-content: space-between;
+}
+footer p {
+  color: #d9dad7;
+}
+footer .icons {
+  color: #c24d2c;
+}
+footer .icons i {
+  font-size: 30px;
+  letter-spacing: 10px;
 }
 .max-width {
   max-width: 1300px;
@@ -238,10 +248,10 @@ footer {
     width: 90%;
   }
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width {
     margin-top: 5rem;
-    border-top: 3px solid #C24D2C;
+    border-top: 3px solid #c24d2c;
   }
 }
 .max-width .sectionExplore {
@@ -289,7 +299,6 @@ footer {
   .max-width .sectionExplore #img-container .imgDiv {
     width: 100%;
     margin-bottom: 4rem;
-    padding-bottom: 5rem;
   }
 }
 .max-width .sectionExplore #img-container .imgDiv span {
@@ -358,9 +367,14 @@ footer {
 .max-width .intro-Content {
   width: 100%;
 }
-@media (max-width:920px) {
+@media (max-width:800px) {
   .max-width .intro-Content {
-    border-top: 3px solid #C24D2C;
+    margin-top: -10rem;
+  }
+}
+@media (max-width:970px) {
+  .max-width .intro-Content {
+    border-top: 3px solid #c24d2c;
   }
 }
 .max-width .intro-Content .introContainer {
@@ -373,7 +387,7 @@ footer {
     justify-content: space-between;
   }
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .intro-Content .introContainer {
     flex-direction: column;
     margin-top: 1rem;
@@ -384,21 +398,21 @@ footer {
     display: none;
   }
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .intro-Content .introContainer .Two {
     display: none;
   }
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .intro-Content .introContainer .One {
     margin-bottom: 12rem;
   }
 }
 .max-width .intro-Content .introContainer .box {
-  width: 240px;
+  width: 280px;
   height: 360px;
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .intro-Content .introContainer .box {
     width: 100%;
   }
@@ -407,7 +421,7 @@ footer {
   width: 100%;
   height: 100%;
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .intro-Content .introContainer .box img {
     margin-bottom: 2rem;
   }
@@ -416,9 +430,9 @@ footer {
   width: 100%;
   margin-top: 15rem;
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .computers {
-    border-top: 3px solid #C24D2C;
+    border-top: 3px solid #c24d2c;
   }
 }
 .max-width .computers .cpuContainer {
@@ -437,7 +451,7 @@ footer {
     display: none;
   }
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .computers .cpuContainer {
     flex-direction: column;
     margin-top: -12rem;
@@ -448,7 +462,7 @@ footer {
   width: 400px;
   height: 350px;
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .computers .cpuContainer .middlebox {
     width: 100%;
     margin-top: 12rem;
@@ -458,7 +472,7 @@ footer {
   width: 100%;
   height: 100%;
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .computers .cpuContainer .middlebox img {
     margin-bottom: 2rem;
   }
@@ -467,16 +481,16 @@ footer {
   width: 100%;
   margin-top: 15rem;
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .topRated {
-    border-top: 3px solid #C24D2C;
+    border-top: 3px solid #c24d2c;
   }
 }
 .max-width .topRated .ratedContainer {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-bottom: 50rem;
+  margin-bottom: 30rem;
 }
 @media (max-width:1230px) {
   .max-width .topRated .ratedContainer {
@@ -488,12 +502,12 @@ footer {
     display: none;
   }
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .topRated .ratedContainer .Three p {
-    border-bottom: 3px solid #C24D2C;
+    border-bottom: 3px solid #c24d2c;
   }
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .topRated .ratedContainer {
     flex-direction: column;
     margin-top: -12rem;
@@ -504,7 +518,7 @@ footer {
   width: 400px;
   height: 350px;
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .topRated .ratedContainer .bottombox {
     width: 100%;
     margin-top: 12rem;
@@ -514,7 +528,7 @@ footer {
   width: 100%;
   height: 100%;
 }
-@media (max-width:920px) {
+@media (max-width:970px) {
   .max-width .topRated .ratedContainer .bottombox img {
     margin-bottom: 2rem;
   }
