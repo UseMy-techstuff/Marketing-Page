@@ -290,12 +290,18 @@ body .mission .miss-statement h2 {
   }
 }
 body .mission .miss-statement p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   line-height: 1.5rem;
 }
 @media (max-width: 800px) {
   body .mission .miss-statement p {
+    font-size: 1.2rem;
     line-height: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  body .mission .miss-statement p {
+    font-size: 1rem;
   }
 }
 body .container {
