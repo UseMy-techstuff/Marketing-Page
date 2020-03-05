@@ -17,9 +17,7 @@
 //  changeImg, 3000);
 
 const slideImg = document.querySelectorAll(".bgslide .slide-img");
-
-const nextImageDelay = 4000;
-
+const nextImageDelay = 5000;
 let currentImageCounter = 0;
 
 slideImg[currentImageCounter].style.opacity = 1;
