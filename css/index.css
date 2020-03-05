@@ -161,6 +161,7 @@ body h3 {
   color: #D9DAD7;
 }
 body a {
+  letter-spacing: 2px;
   text-decoration: none;
   font-size: 1.2rem;
   color: #C24D2C;
@@ -170,7 +171,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   height: 12vh;
-  background-color: #3E4A61d9;
+  background-color: #3E4A61f2;
   padding: 2% 0;
 }
 @media (max-width: 500px) {
@@ -230,7 +231,7 @@ header nav {
 footer {
   display: flex;
   justify-content: space-evenly;
-  background-color: #3E4A61d9;
+  background-color: #3E4A61f2;
 }
 footer a {
   font-family: 'Oxanium';
