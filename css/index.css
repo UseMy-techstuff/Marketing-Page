@@ -166,7 +166,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   height: 12vh;
-  background-color: #3E4A61;
+  background-color: #3E4A61d9;
   padding: 2% 0;
 }
 @media (max-width: 500px) {
@@ -230,7 +230,7 @@ header nav a {
 footer {
   display: flex;
   justify-content: space-evenly;
-  background-color: #3E4A61;
+  background-color: #3E4A61d9;
 }
 footer a {
   text-decoration: none;
@@ -292,6 +292,7 @@ body .mission .miss-statement h2 {
 body .mission .miss-statement p {
   font-size: 1.5rem;
   line-height: 1.5rem;
+  text-align: center;
 }
 @media (max-width: 800px) {
   body .mission .miss-statement p {
@@ -375,7 +376,7 @@ body .team .tm {
   justify-content: flex-start;
   align-items: center;
   color: white;
-  background-color: #3E4A61;
+  background-color: #3E4A61d9;
   border-radius: 8px;
   width: 30%;
   height: auto;
@@ -393,6 +394,7 @@ body .team .tm {
 body .team .tm h2 {
   font-size: 2vw;
   padding: 6% 0;
+  text-align: center;
 }
 @media (max-width: 800px) {
   body .team .tm h2 {
