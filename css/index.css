@@ -168,6 +168,7 @@ header {
   height: 12vh;
   background-color: #3E4A61d9;
   padding: 2% 0;
+  text-shadow: -1px -1px 0 #444141, 1px -1px 0 #444141, -1px 1px 0 #444141, 1px 1px 0 #444141;
 }
 @media (max-width: 500px) {
   header {
@@ -235,6 +236,7 @@ footer {
 footer a {
   text-decoration: none;
   font-family: 'Oxanium';
+  text-shadow: -1px -1px 0 #444141, 1px -1px 0 #444141, -1px 1px 0 #444141, 1px 1px 0 #444141;
 }
 body .mission {
   display: flex;
