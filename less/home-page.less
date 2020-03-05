@@ -15,9 +15,7 @@
     margin-top: 2%;
 
     #img-container {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
+      .flex();
       height: 10vh;
       margin-top: 10px;
       margin-bottom: 8rem;
@@ -79,12 +77,7 @@
 
         .bg-image1 {
           background-image: url(/img/coveraudiovideo.jpg);
-          width: 30%;
-          height: 100%;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          border-radius: 10px;
+          .explore-images();
 
           @media @desktop {
             width: 100%;
@@ -93,11 +86,7 @@
 
         .bg-image2 {
           background-image: url(/img/cover-computer.jpg);
-          width: 30%;
-          height: 100%;
-          background-position: center;
-          background-size: cover;
-          border-radius: 10px;
+          .explore-images();
 
           @media @desktop {
             width: 100%;
@@ -106,12 +95,7 @@
 
         .bg-image3 {
           background-image: url(/img/cover-camera.jpg);
-          width: 30%;
-          height: 100%;
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
-          border-radius: 10px;
+          .explore-images();
 
           @media @desktop {
             width: 100%;
@@ -133,9 +117,7 @@
     }
 
     .introContainer {
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
+      .flex();
 
       @media @desktop {
         justify-content: space-between;
@@ -194,9 +176,7 @@
 
     .cpuContainer {
       margin-top: -19rem;
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
+      .flex();
 
       @media @desktop {
         justify-content: space-between;
@@ -244,9 +224,7 @@
     }
 
     .ratedContainer {
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
+      .flex();
       margin-bottom: 30rem;
 
       @media @desktop {
