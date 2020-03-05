@@ -393,7 +393,8 @@ body .team .tm h2 {
   }
 }
 body .team .tm p {
-  padding: 8%;
+  padding-bottom: 8%;
+  text-align: center;
 }
 body footer {
   height: 10vh;
